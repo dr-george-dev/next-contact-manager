@@ -11,7 +11,7 @@ const LogoutButton = () => {
       // The redirect happens in the server action
       // This client-side redirect is a fallback
       // redirect('/login');
-      router.push('/login');
+      router.push("/login");
       router.refresh();
     } catch (error) {
        console.log("Logout failed : ", error);
